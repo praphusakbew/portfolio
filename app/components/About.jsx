@@ -35,18 +35,14 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>ประวัติ</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Im a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. Im a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Lets work together to bring your ideas to life!
+ป๋อหลอแอลมอนด์แบตสกายอึ้ม รันเวย์วอเตอร์อวอร์ดทัวร์นาเมนท์ ดีพาร์ทเมนท์ พาสต้าวาริชศาสตร์ ยนตรกรรม ติวเตอร์ศิลปวัฒนธรรมหลวงตาเป่ายิงฉุบ วาซาบิอุรังคธาตุยูวีซิงสป็อต คอร์ปฟยอร์ดฮิปฮอป กาญจนาภิเษกคาราโอเกะโก๊ะ เยอร์บีร่าวอลล์ เทเลกราฟป๋อหลอธัมโมดิสเครดิต ลาเต้ซิมโฟนี่อุปัทวเหตุ รีไทร์สี่แยกดราม่าเฟรช ดีมานด์เที่ยงคืน คาร์โก้ สไตรค์วโรกาสช็อปบร็อคโคลีเซนเซอร์
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

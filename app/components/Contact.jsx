@@ -76,22 +76,29 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={styles.sectionHeadText}>ช่องทางติดต่อ</h3>
 
         <div className="grid grid-cols-2 gap-7 pt-3">
-          
+          <Link href="mailto:praphusak.biw@gmail.com">
             <div className="flex justify-center">
-              <Image src="/logo.svg" alt="Image 1" width={500} height={500} className="h-auto max-w-full rounded-lg" />
+              <Image src="/email.png" alt="email icon" width={500} height={500} className="h-auto max-w-full rounded-lg" />
             </div>
+          </Link> 
+          <Link href="https://line.me/ti/p/tvETfiqdmq">
           <div className="flex justify-center">
-            <Image src="/logo.svg" alt="Image 1" width={500} height={500} className="h-auto max-w-full rounded-lg" />
+            <Image src="/line.png" alt="line icon" width={500} height={500} className="h-auto max-w-full rounded-lg" />
           </div>
+          </Link>
+          <Link href="https://www.messenger.com/t/100007677406784">
           <div className="flex justify-center">
-            <Image src="/logo.svg" alt="Image 1" width={500} height={500} className="h-auto max-w-full rounded-lg" />
+            <Image src="/messenger.png" alt="messenger icon" width={500} height={500} className="h-auto max-w-full rounded-lg" />
           </div>
+          </Link>
+          <Link href="https://www.facebook.com/profile.php?id=100007677406784">
           <div className="flex justify-center">
-            <Image src="/logo.svg" alt="Image 1" width={500} height={500} className="h-auto max-w-full rounded-lg" />
+            <Image src="/facebook.png" alt="facebook icon" width={500} height={500} className="h-auto max-w-full rounded-lg" />
           </div>
+          </Link>
         </div>
 
 

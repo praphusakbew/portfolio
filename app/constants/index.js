@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  thr,
 } from "../../public/assets";
 
 export const navLinks = [
@@ -50,7 +51,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "งานข้อมูลสารสนเทศ",
     icon: backend,
   },
   {
@@ -61,59 +62,35 @@ const services = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "โรงเรียนทุ่งใหญ่เฉลิมราชอนุสรณ์ รัชมังคลาภิเษก",
+    company_name: "[บรรจุเข้ารับราชการตำแหน่ง ครูผู้ช่วย]",
+    icon: thr,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "ต.ค. 2559 - ปัจจุบัน",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "วาริชศาสตร์เรตติ้งซาร์หงวนมาร์จิน ละอ่อนคาร์โก้เซ็กซ์ สเตชั่นเซอร์วิส",
+      "โหงวสี่แยกซื่อบื้อรูบิค สมิติเวชปิกอัพบัลลาสต์วโรกาส ไวอากร้ายะเยือกบูมสกายแอร์",
+      "รีไทร์อันเดอร์ซานตาคลอส ไฟแนนซ์ บลูเบอร์รี่",
+      "แก๊สโซฮอล์แบดวีซ่าโปรเจกต์ เฉิ่มเทปสมาพันธ์กู๋ดั๊มพ์ เซอร์วิสแก๊สโซฮอล์ก๋ากั่นเทคโนแครต",
     ],
   },
   {
-    title: "React Native Developer",
+    title: "xxxxxxxxxxxxxxxxxx",
     company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "ไลน์ คอลเล็กชั่นวิภัชภาคอึ๋ม ดีมานด์บัตเตอร์",
+      "บูติก โทรแรงผลักตุ๊กคอลัมนิสต์แผดเผา ไวกิ้งคอลัมนิสต์มาราธอนแฟรนไชส์",
+      "ไฮเอนด์บูติก ซิ่งซิตีซาร์หมั่นโถวคอนแทค คอนเทนเนอร์เชอร์รี่ไดเอ็ต",
+      "ฟาสต์ฟู้ดซินโดรมซาดิสม์ไดเอ็ตแฟ้บ เวิร์กแคป ปาร์ตี้แล็บต้าอ่วย",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
 ];
 
+/*
 const testimonials = [
   {
     testimonial:
@@ -140,6 +117,7 @@ const testimonials = [
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
+*/
 
 const projects = [
   {
@@ -207,4 +185,4 @@ const projects = [
   },
 ];
 
-export { services, experiences, testimonials, projects };
+export { services, experiences, projects };
